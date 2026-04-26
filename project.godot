@@ -10,9 +10,25 @@ config_version=5
 
 [application]
 
-config/name="HelloMicroBitXR"
+config/name="Hello Micro Bit XR"
+config/description="Learn XR and code by playing with Micro:Bit and sensors."
+run/main_scene="uid://cclhhkgfbt0mc"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="res://icon.svg"
+
+[input]
+
+test={
+"deadzone": 0.2,
+"events": []
+}
+
+[input_devices]
+
+sensors/enable_accelerometer=true
+sensors/enable_gravity=true
+sensors/enable_gyroscope=true
+sensors/enable_magnetometer=true
 
 [physics]
 
@@ -27,8 +43,9 @@ environment/defaults/default_clear_color=Color(0, 0, 0, 0)
 [xr]
 
 openxr/enabled=true
-openxr/reference_space=0
-openxr/environment_blend_mode=1
+openxr/default_action_map="uid://c4gq4811gjmy2"
+openxr/reference_space=2
+openxr/environment_blend_mode=2
 openxr/extensions/hand_tracking=true
 openxr/extensions/hand_tracking_unobstructed_data_source=true
 openxr/extensions/hand_tracking_controller_data_source=true

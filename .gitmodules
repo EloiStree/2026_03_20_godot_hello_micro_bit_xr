@@ -22,3 +22,12 @@
 [submodule "addons/2026_04_16_gdps_learn_bit_and_code"]
 	path = addons/2026_04_16_gdps_learn_bit_and_code
 	url = https://github.com/EloiStree/2026_04_16_gdps_learn_bit_and_code.git
+[submodule "addons/2026_04_26_gdp_basic_godot_xr"]
+	path = addons/2026_04_26_gdp_basic_godot_xr
+	url = https://github.com/EloiStree/2026_04_26_gdp_basic_godot_xr.git
+[submodule "addons/2026_04_16_gdps_learn_bit_and_code_in_xr"]
+	path = addons/2026_04_16_gdps_learn_bit_and_code_in_xr
+	url = https://github.com/EloiStree/2026_04_16_gdps_learn_bit_and_code_in_xr.git
+[submodule "addons/2026_04_25_gdp_godot_to_termux"]
+	path = addons/2026_04_25_gdp_godot_to_termux
+	url = https://github.com/EloiStree/2026_04_25_gdp_godot_to_termux.git

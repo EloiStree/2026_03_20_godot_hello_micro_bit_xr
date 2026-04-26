@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://bqbgu7m72c66n"]
+
+[ext_resource type="Script" uid="uid://bss70ikgoeo1k" path="res://addons/2026_04_26_gdp_basic_godot_xr/script/core/xr_basic_setup_open_xr.gd" id="1_04qwj"]
+[ext_resource type="Script" uid="uid://k0451ivt0too" path="res://unstore/git_status_test_os.gd" id="2_w0vwv"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_bakrf"]
+
+[node name="GitSaveXr" type="Node3D" unique_id=595150391]
+
+[node name="XROrigin3D" type="XROrigin3D" parent="." unique_id=1310613315]
+
+[node name="XRCamera3D" type="XRCamera3D" parent="XROrigin3D" unique_id=554881730]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1731978299]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.4409208)
+mesh = SubResource("BoxMesh_bakrf")
+
+[node name="XrBasicSetupOpenXR" type="Node" parent="." unique_id=1493908736]
+script = ExtResource("1_04qwj")
+metadata/_custom_type_script = "uid://bss70ikgoeo1k"
+
+[node name="Node" type="Node" parent="." unique_id=716149200 node_paths=PackedStringArray("label")]
+script = ExtResource("2_w0vwv")
+label = NodePath("../Label3D")
+
+[node name="Label3D" type="Label3D" parent="." unique_id=350814577]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.3121022, 1.0538999, -1.4688435)
+text = "test"
