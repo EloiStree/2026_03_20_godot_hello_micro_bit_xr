@@ -1,0 +1,2 @@
+# 2026_03_20_godot_hello_micro_bit_xr
+Version 2026_03_20_godot_hello_micro_bit but in XR
